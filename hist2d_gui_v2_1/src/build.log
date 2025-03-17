@@ -1,0 +1,89 @@
+Compiler version: 4.9 (R2008b)  
+Warning: Duplicate directory name: D:\Stephen\Programming\matlab\NIS_analysis.  
+mcc -o 'hist2d_gui_v2_1' -W 'main' -d 'D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src' -T 'link:exe' -v 'D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui.m' -a 'D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui.fig' -a 'D:\Stephen\Programming\matlab\NIS_analysis\hist1d_4gui_NIS_objdata.m' -a 'D:\Stephen\Programming\matlab\NIS_analysis\hist2d_4gui_NIS_objdata.m' -a 'D:\Stephen\Programming\matlab\NIS_analysis\read_NIS_objdata.m' -a 'd:\stephen\programming\matlab\search4excel_files_in_dir.m' -a 'D:\Stephen\Programming\matlab\NIS_analysis\dscatter_sltfix.m' -a 'd:\stephen\programming\matlab\qpcr_data\barwitherr.m'  
+Warning: Name is nonexistent or not a directory: C:\Program 
+Files\MATLAB\R2008b\toolbox\compiler\patch.  
+Warning: Name is nonexistent or not a directory: C:\Program 
+Files\MATLAB\R2008b\toolbox\compiler\patch.  
+Processing C:\Program Files\MATLAB\R2008b\toolbox\matlab\mcc.enc 
+Processing C:\Program Files\MATLAB\R2008b\toolbox\stats\mcc.enc 
+Processing D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui.fig 
+Processing C:\Program Files\MATLAB\R2008b\toolbox\matlab\guide\guideopts.fig 
+Processing C:\Program Files\MATLAB\R2008b\toolbox\matlab\winfun\actxcontrolselect.fig 
+Processing C:\Program Files\MATLAB\R2008b\toolbox\matlab\winfun\actxcontrolcreateproperty.fig 
+Processing include files... 
+2 item(s) added. 
+Processing directories installed with MCR... 
+The file D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive. 
+2 item(s) added. 
+Generating MATLAB path for the compiled application... 
+Created 42 path items. 
+Begin validation of MEX files: Sun Dec 06 21:30:58 2015  
+End validation of MEX files: Sun Dec 06 21:30:58 2015  
+Warning: Name is nonexistent or not a directory: C:\Program 
+Files\MATLAB\R2008b\toolbox\compiler\patch.  
+Deleting 0 temporary MEX authorization files.  
+Parsing file "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Program Files\MATLAB\R2008b\toolbox\compiler\deploy\deployprint.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Program Files\MATLAB\R2008b\toolbox\compiler\deploy\printdlg.m" 
+	(Referenced from: "Compiler Command Line").  
+Generating file "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\hist2d_gui_v2_1_main.c".  
+Generating file "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\hist2d_gui_v2_1_delay_load.c".  
+Generating file "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\readme.txt".  
+Generating file "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\hist2d_gui_v2_1_mcc_component_data.c".  
+Contents of temporary response file 'C:\Users\TRISN_~1\AppData\Local\Temp\mathworks_tmp_12868_10886':  
+ ......................  
+' -O -v -output "hist2d_gui_v2_1" -I"D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src" "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\hist2d_gui_v2_1_main.c" "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\hist2d_gui_v2_1_delay_load.c" "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src\hist2d_gui_v2_1_mcc_component_data.c" -link exe  -env MCR_DELAYLOAD=/delayload:mclmcrrt79.dll -env MCR_DELAYLIB=delayimp.lib -outdir "D:\Stephen\Programming\matlab\NIS_analysis\hist2d_gui_v2_1\src"'  
+......................  
+Executing command: mbuild  "@C:\Users\TRISN_~1\AppData\Local\Temp\mathworks_tmp_12868_10886"  
+ This is mbuild Copyright 1984-2006 The MathWorks, Inc. 
+ 
+-> Default options filename found in C:\Users\trisn_000\AppData\Roaming\MathWorks\MATLAB\R2008b 
+---------------------------------------------------------------- 
+->    Options file           = C:\Users\trisn_000\AppData\Roaming\MathWorks\MATLAB\R2008b\compopts.bat 
+->    COMPILER               = cl 
+->    Compiler flags: 
+         COMPFLAGS           = -c -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo /D_CRT_SECURE_NO_DEPRECATE 
+         OPTIMFLAGS          = -O2 -DNDEBUG 
+         DEBUGFLAGS          = -Z7 -MD 
+         arguments           =  -ID:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC 
+         Name switch         = /Fo 
+->    Pre-linking commands   =  
+->    LINKER                 = link 
+->    Link directives: 
+         LINKFLAGS           = /MACHINE:AMD64 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /LIBPATH:"C:\PROGRA~1\MATLAB\R2008b\extern\lib\win64\microsoft" /nologo /manifest /manifestfile:"D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1.msvc.manifest" mclmcrrt.lib 
+         LINKFLAGSPOST       =  
+         Name directive      = /out:"D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1.exe" 
+         File link directive =  
+         Lib. link directive =  
+         Rsp file indicator  = @ 
+->    Resource Compiler      = rc /fo "D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\.res" 
+->    Resource Linker        =  
+---------------------------------------------------------------- 
+ 
+ 
+--> cl  -ID:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC -c -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo /D_CRT_SECURE_NO_DEPRECATE /FoC:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\hist2d_gui_v2_1_main.obj -IC:\PROGRA~1\MATLAB\R2008b\extern\include -IC:\PROGRA~1\MATLAB\R2008b\simulink\include -O2 -DNDEBUG D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1_main.c 
+ 
+hist2d_gui_v2_1_main.c 
+ 
+--> cl  -ID:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC -c -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo /D_CRT_SECURE_NO_DEPRECATE /FoC:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\hist2d_gui_v2_1_delay_load.obj -IC:\PROGRA~1\MATLAB\R2008b\extern\include -IC:\PROGRA~1\MATLAB\R2008b\simulink\include -O2 -DNDEBUG D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1_delay_load.c 
+ 
+hist2d_gui_v2_1_delay_load.c 
+ 
+--> cl  -ID:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC -c -Zp8 -GR -W3 -EHsc- -Zc:wchar_t- -nologo /D_CRT_SECURE_NO_DEPRECATE /FoC:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\hist2d_gui_v2_1_mcc_component_data.obj -IC:\PROGRA~1\MATLAB\R2008b\extern\include -IC:\PROGRA~1\MATLAB\R2008b\simulink\include -O2 -DNDEBUG D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1_mcc_component_data.c 
+ 
+hist2d_gui_v2_1_mcc_component_data.c 
+    Contents of C:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\mbuild_tmp.rsp: 
+  C:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\hist2d_gui_v2_1_main.obj  C:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\hist2d_gui_v2_1_delay_load.obj  C:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\hist2d_gui_v2_1_mcc_component_data.obj 
+ 
+ 
+--> link /out:"D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1.exe" /MACHINE:AMD64 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /LIBPATH:"C:\PROGRA~1\MATLAB\R2008b\extern\lib\win64\microsoft" /nologo /manifest /manifestfile:"D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1.msvc.manifest" mclmcrrt.lib  @C:\USERS\TRISN_~1\APPDATA\LOCAL\TEMP\MBUILD~1\MBUILD~1.RSP   
+ 
+ 
+--> mt.exe -outputresource:"D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1.exe";1 -manifest "D:\STEPHEN\PROGRAMMING\MATLAB\NIS_ANALYSIS\HIST2D_GUI_V2_1\SRC\hist2d_gui_v2_1.msvc.manifest" 
+ 
+Microsoft (R) Manifest Tool version 5.2.3790.2075  
+Copyright (c) Microsoft Corporation 2005.   
+All rights reserved.  
